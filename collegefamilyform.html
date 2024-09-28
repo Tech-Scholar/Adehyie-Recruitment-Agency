@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/registrationstyle.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Application Form</header>
+
+        <form action="form.php" method="post">
+
+            <!--Family Form-->
+            <div class="form first">
+                <div class="details address">
+                    <span class="title">Family Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Wife Name</label>
+                            <input type="text" placeholder="Wife Name" id="wifename" name="wifename">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter Date of Birth" id="wifedateofbirth" name="wifedateofbirth">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Place of Birth</label>
+                            <input type="text" placeholder="Enter your place of birth" id="wifeplaceofbirth" name="wifeplaceofbirth">
+                        </div>                        
+
+                        <div class="input-field">
+                            <label>Contact Number</label>
+                            <input type="text" placeholder="Enter contact number" id="wifecontact" name="wifecontact">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Wife Occupation</label>
+                            <input type="text" placeholder="Enter Wife Occupation" id="wifeoccupation" name="wifeoccupation">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Children Name</label>
+                            <input type="text" placeholder="Enter Children Name" id="childrenname" name="childrenname">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Children Date of Birth</label>
+                            <input type="date" placeholder="Enter Children Date of Birth" id="childrendateofbirth" name="childrendateofbirth">
+                        </div>                     
+
+                        <div class="input-field">
+                            <label>Sex</label>
+                            <select id="sex" name="sex" required>
+                            <option selected value=" " disabled> Select</option>
+                            <option value="">Male</option>
+                            <option value="1 ">Female</option>       
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Mother Name</label>
+                            <input type="text" placeholder="Enter Applicant Mother Name" id="mothername" name="mothername" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Mother Date of Birth</label>
+                            <input type="date" placeholder="Enter Applicant Mother Date of Birth"  id="motherdateofbirth" name="motherdateofbirth" required>
+                        </div> 
+                        
+                        <div class="input-field">
+                            <label>Applicant Mother House Address</label>
+                            <input type="text" placeholder="Enter Applicant Mother House Address" id="motherhouseaddress" name="motherhouseaddress" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Mother Occupation</label>
+                            <input type="text" placeholder="Enter Applicant Mother Occupation" id="motheroccupation" name="motheroccupation" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Mother Contact Number</label>
+                            <input type="text" placeholder="Enter Applicant Mother Contact Number" id="mothercontact" name="mothercontact" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>If Deceased Provide Date of Birth</label>
+                            <input type="date" placeholder="Enter date if Deceased" id="ifdeceasedmother" name="ifdeceasedmother">
+                        </div> 
+
+                        <div class="input-field">
+                            <label>Applicant Father Name</label>
+                            <input type="text" placeholder="Enter Applicant Father Name" id="fathername" name="fathername" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Father Date of Birth</label>
+                            <input type="date" placeholder="Enter Applicant Father Date of Birth" id="fatherdateofbirth" name="fatherdateofbirth" required>
+                        </div> 
+                        
+                        <div class="input-field">
+                            <label>Applicant Father House Address</label>
+                            <input type="text" placeholder="Enter Applicant Father House Address" id="fatherhouseaddress" name="fatherhouseaddress" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Father Occupation</label>
+                            <input type="text" placeholder="Enter Applicant Father Occupation" id="fatheroccupation" name="fatheroccupation" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Father Contact Number</label>
+                            <input type="text" placeholder="Enter Applicant Father Contact Number" id="fathercontact" name="fathercontact" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>If Deceased Provide Date of Birth</label>
+                            <input type="date" placeholder="Enter date if Deceased" id="ifdeceasedfather" name="ifdeceasedfather">
+                        </div> 
+                        
+                    </div>
+                
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">
+                                <a href="collegeeducationform.html">Back</a>
+                            </span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>                 
+        </form>
+    </div>
+
+
+    <script src="js/registrationscript.js"></script>
+</body>
+</html>

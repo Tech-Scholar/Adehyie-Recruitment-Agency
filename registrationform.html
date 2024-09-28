@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/registrationstyle.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Application Form</header>
+
+        <form action="form.php" method="post">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Please fill in all the details</details></span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Enter your first name" id="firstname" name="firstname" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter your last name" id="lastname" name="lastname" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" id="personaldateofbirth" name="personaldateofbirth" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Place of Birth</label>
+                            <input type="text" placeholder="Enter your place of birth" id="personalplaceofbirth" name="personaldateofbirth"  required>
+                        </div>                        
+
+                        <div class="input-field">
+                            <label>Contact Number</label>
+                            <input type="text" placeholder="Enter contact number" id="personalcontact" name="personalcontact" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Contact Number</label>
+                            <input type="text" placeholder="Enter contact number" id="personalcontact" name="personalcontact" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ID Card</label>
+                            <select id="idcard" name="idcard" required>
+                            <option selected value=" " disabled> Select</option>
+                            <option value="">Driver's License</option>
+                            <option value="1 ">Ghana Card</option>
+                            <option value="2 ">NHIS</option>
+                            <option value="3 ">Voter's ID Card</option>         
+                            </select>
+                        </div>   
+
+                        <div class="input-field">
+                            <label>ID Card Number</label>
+                            <input type="text" placeholder="Enter ID Card number" id="idcardnumber" name="idcardnumber" required>
+                        </div>                        
+                        
+                        <div class="input-field">
+                            <label>ID Card Issue Date</label>
+                            <input type="text" placeholder="Enter ID Card Issue Date" id="idcardissuedate" name="idcardissuedate" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ID Card Expiry Date</label>
+                            <input type="text" placeholder="Enter ID Card Expiry Date" id="idcardexpirydate" name="idcardexpirydate" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Marital Status</label>
+                            <select id="maritalstatus" name="maritalstatus" required>
+                            <option selected value=" " disabled> Select</option>
+                            <option value="">Single</option>
+                            <option value="1 ">Married</option>
+                            <option value="2 ">Divorced</option>
+                            <option value="3 ">Widow</option>         
+                            </select>
+                        </div>   
+                        
+                        <div class="input-field">
+                            <label>Spouse Name</label>
+                            <input type="text" placeholder="Enter Spouse name" id="spousename" name="spousename">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Marriage</label>
+                            <input type="date" placeholder="Enter marriage date" id="spousedateofmarriage" name="spousedateofmarriage">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Place of Marriage</label>
+                            <input type="text" placeholder="Enter place of marriage" id="spouseplaceofmarriage" name="spouseplaceofmarriage">
+                        </div>      
+                        
+                        <div class="input-field">
+                            <label>House Address</label>
+                            <input type="text" placeholder="Enter House Address" id="spousehouseaddress" name="spousehouseaddress">
+                        </div>   
+                        
+                        <div class="input-field">
+                            <label>Digital Address</label>
+                            <input type="text" placeholder="Enter Digital Address" id="spousedigitaladdress" name="spousedigitaladdress">
+                        </div>   
+
+                        <div class="input-field">
+                            <label>Mailing Address</label>
+                            <input type="text" placeholder="Enter Mailing Address" id="spousemailingaddress" name="spousemailingaddress">
+                        </div>   
+
+                        <div class="input-field">
+                            <label>Email Address</label>
+                            <input type="text" placeholder="Enter your email" id="spouseemail" name="spouseemail">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Native Language</label>
+                            <input type="text" placeholder="Enter Native Language" id="spousenativelanguage" name="spousenativelanguage">
+                        </div>  
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">
+                            <a href="educationform.html">Next</a>
+                        </span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <!--Education Form>
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Education Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Name of Last School Attended</label>
+                            <input type="text" placeholder="Name of Last School Attended" id="nameoflastschoolattended" name="nameoflastschoolattended" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Address of the School</label>
+                            <input type="text" placeholder="Enter Address of the School" id="addressoftheschool" name="addressoftheschool" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date You Start The School</label>
+                            <input type="date" placeholder="Enter Date You Start The School" id="dateyoustarttheschool" name="dateyoustarttheschool" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Completion of School</label>
+                            <input type="date" placeholder="Enter Date of Completion of School" id="dateofcompletionofschool" name="dateofcompletionofschool" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Starting The Work</label>
+                            <input type="date" placeholder="Enter Date of Starting The Work" id="dateofstartingthework" name="dateofstartingthework" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Employment (Name of Company)</label>
+                            <input type="text" placeholder="Enter Employment (Name of Company)" id="employment" name="employment" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Stopping</label>
+                            <input type="date" placeholder="Enter Date You Start The School" id="dateofstopping" name="dateofstopping" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Contact Number of School</label>
+                            <input type="text" placeholder="Enter Contact Number of School" id="schoolcontact" name="schoolcontact" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="nextBtn">
+                            <span class="btnText">Next</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+            </div> 
+            
+            <!--Family Form>
+            <div class="form first">
+                <div-- class="details address">
+                    <span class="title">Family Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Wife Name</label>
+                            <input type="text" placeholder="Wife Name" id="wifename" name="wifename" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter Date of Birth" id="wifedateofbirth" name="wifedateofbirth" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Place of Birth</label>
+                            <input type="text" placeholder="Enter your place of birth" id="wifeplaceofbirth" name="wifeplaceofbirth" required>
+                        </div>                        
+
+                        <div class="input-field">
+                            <label>Contact Number</label>
+                            <input type="text" placeholder="Enter contact number" id="wifecontact" name="wifecontact" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Wife Occupation</label>
+                            <input type="text" placeholder="Enter Wife Occupation" id="wifeoccupation" name="wifeoccupation" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Children Name</label>
+                            <input type="text" placeholder="Enter Children Name" id="childrenname" name="childrenname" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Children Date of Birth</label>
+                            <input type="date" placeholder="Enter Children Date of Birth" id="childrendateofbirth" name="childrendateofbirth" required>
+                        </div>                     
+
+                        <div class="input-field">
+                            <label>Sex</label>
+                            <select required>
+                            <option selected value=" " disabled> Select</option>
+                            <option value="">Male</option>
+                            <option value="1 ">Female</option>       
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Mother Name</label>
+                            <input type="text" placeholder="Enter Applicant Mother Name" id="mothername" name="mothername" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Mother Date of Birth</label>
+                            <input type="date" placeholder="Enter Applicant Mother Date of Birth"  id="motherdateofbirth" name="motherdateofbirth" required>
+                        </div> 
+                        
+                        <div class="input-field">
+                            <label>Applicant Mother House Address</label>
+                            <input type="text" placeholder="Enter Applicant Mother House Address" id="motherhouseaddress" name="motherhouseaddress" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Mother Occupation</label>
+                            <input type="text" placeholder="Enter Applicant Mother Occupation" id="motheroccupation" name="motheroccupation" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Mother Contact Number</label>
+                            <input type="text" placeholder="Enter Applicant Mother Contact Number" id="mothercontact" name="mothercontact" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>If Deceased Provide Date of Birth</label>
+                            <input type="date" placeholder="Enter date if Deceased" id="ifdeceasedmother" name="ifdeceasedmother" required>
+                        </div> 
+
+                        <div class="input-field">
+                            <label>Applicant Father Name</label>
+                            <input type="text" placeholder="Enter Applicant Father Name" id="fathername" name="fathername" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Father Date of Birth</label>
+                            <input type="date" placeholder="Enter Applicant Father Date of Birth" id="fatherdateofbirth" name="fatherdateofbirth" required>
+                        </div> 
+                        
+                        <div class="input-field">
+                            <label>Applicant Father House Address</label>
+                            <input type="text" placeholder="Enter Applicant Father House Address" id="fatherhouseaddress" name="fatherhouseaddress" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Father Occupation</label>
+                            <input type="text" placeholder="Enter Applicant Father Occupation" id="fatheroccupation" name="fatheroccupation" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Applicant Father Contact Number</label>
+                            <input type="text" placeholder="Enter Applicant Father Contact Number" id="fathercontact" name="fathercontact" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>If Deceased Provide Date of Birth</label>
+                            <input type="date" placeholder="Enter date if Deceased" id="ifdeceasedfather" name="ifdeceasedfather" required>
+                        </div> 
+                        
+                    </div>
+                
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+            </div--> 
+
+                
+        </form>
+    </div>
+
+    <script src="js/registrationscript.js"></script>
+</body>
+</html>

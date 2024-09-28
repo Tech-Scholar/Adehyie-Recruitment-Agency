@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/education.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Application Form</header>
+
+        <form action="form.php" method="post">         
+
+            <!--Education Form-->
+            <div class="form first">
+                <div class="details address">
+                    <span class="title">Education Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Name of Last School Attended</label>
+                            <input type="text" placeholder="Name of Last School Attended" id="nameoflastschoolattended" name="nameoflastschoolattended" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Address of the School</label>
+                            <input type="text" placeholder="Enter Address of the School" id="addressoftheschool" name="addressoftheschool" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date You Start The School</label>
+                            <input type="date" placeholder="Enter Date You Start The School" id="dateyoustarttheschool" name="dateyoustarttheschool" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Completion of School</label>
+                            <input type="date" placeholder="Enter Date of Completion of School" id="dateofcompletionofschool" name="dateofcompletionofschool" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Starting The Work</label>
+                            <input type="date" placeholder="Enter Date of Starting The Work" id="dateofstartingthework" name="dateofstartingthework">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Employment (Name of Company)</label>
+                            <input type="text" placeholder="Enter Employment (Name of Company)" id="employment" name="employment">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Stopping</label>
+                            <input type="date" placeholder="Enter Date You Start The School" id="dateofstopping" name="dateofstopping" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Contact Number of School</label>
+                            <input type="text" placeholder="Enter Contact Number of School" id="schoolcontact" name="schoolcontact" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">
+                                <a href="footballregistration.html">Back</a>
+                            </span>
+                        </div>
+                        
+                        <button class="nextBtn">
+                            <span class="btnText">
+                                <a href="footballfamilyform.html">Next</a>
+                            </span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+            </div> 
+                            
+        </form>
+    </div>
+
+
+    <script src="js/registrationscript.js"></script>
+</body>
+</html>
